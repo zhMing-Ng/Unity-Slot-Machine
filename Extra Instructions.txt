@@ -1,0 +1,8 @@
+To ensure the reel only renders inside a defined viewport:
+Select the reel's SpriteRenderer.
+Set Mask Interaction to "Visible Inside Mask"
+
+Create a mask:
+GameObject → 2D Object → Sprite Mask
+Assign a square sprite to the Sprite Mask.
+Resize the mask to match the visible symbol area.
